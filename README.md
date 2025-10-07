@@ -1,1 +1,13 @@
-# Lab3Web
+# Praktikum 3: Membuat List, Table dan Form
+
+## Nama: Syafarudiansya
+## NIM: 312410381
+## Kelas: TI 24 A6
+
+### Penjelasan Praktikum
+
+#### A. Pembuatan List
+
+1. Ordered List
+Ordered list di HTML digunakan untuk membuat daftar yang terurut (bernomor). Tag utamanya adalah `<ol>` (ordered list), dan setiap item di dalamnya ditulis dengan `<li>` (list item).
+
