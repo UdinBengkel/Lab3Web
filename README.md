@@ -22,3 +22,18 @@ Ordered list di HTML digunakan untuk membuat daftar yang terurut (bernomor). Tag
   </section>
 ```
 <img src="gambar/1.png" width="500"/>
+
+2. Unordered List
+Unordered list di HTML digunakan untuk membuat daftar tidak berurutan, biasanya ditandai dengan titik `(•)` atau simbol lain. Tag utamanya adalah `<ul>` (unordered list), dan setiap itemnya pakai `<li> `sama seperti ordered list.
+
+```html
+<section id="unorder-list">
+    <h2>Unordered List</h2>
+    <ul type="square">
+      <li>Jaringan Komputer</li>
+      <li>Struktur Data</li>
+      <li>Algoritma &amp; Pemrograman</li>
+    </ul>
+  </section>
+```
+<img src="gambar/2.png" width="500"/>
