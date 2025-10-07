@@ -212,7 +212,7 @@ Form di HTML digunakan untuk mengumpulkan data dari pengguna, seperti nama, alam
 2. Menabahkan Style pada Form
 Menambahkan CSS ke Form agar terlihat menarik
 
-```html
+```css
 <style>
     form p > label {
       display: inline-block;
