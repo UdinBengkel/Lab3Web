@@ -11,7 +11,7 @@
 1. Ordered List
 Ordered list di HTML digunakan untuk membuat daftar yang terurut (bernomor). Tag utamanya adalah `<ol>` (ordered list), dan setiap item di dalamnya ditulis dengan `<li>` (list item).
 
-```hmtl
+```html
 <section id="order-list">
     <h2>Ordered List</h2>
     <ol>
