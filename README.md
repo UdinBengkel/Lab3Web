@@ -178,31 +178,8 @@ Form di HTML digunakan untuk mengumpulkan data dari pengguna, seperti nama, alam
           >Laki-laki</label
         >
         <input id="jk_p" type="radio" name="kelamin" value="P" /><label
-          for="jk_p"
-          >Perempuan</label
-        >
+          for="jk_p">Perempuan</label>
       </p>
-      <p>
-        <label for="kota">Kota</label>
-        <select id="kota" name="kota">
-          <option value="">-- Pilih Kota --</option>
-          <option value="jakarta">Jakarta</option>
-          <option value="bandung">Bandung</option>
-          <option value="surabaya">Surabaya</option>
-          <option value="medan">Medan</option>
-        </select>
-      </p>
-      <p class="hobi-row">
-        <label for="hobi">Hobi</label>
-        <select id="hobi" name="hobi[]" multiple size="4">
-          <option value="membaca">Membaca</option>
-          <option value="olahraga">Olahraga</option>
-          <option value="musik">Musik</option>
-          <option value="traveling">Traveling</option>
-          <option value="gaming">Gaming</option>
-        </select>
-      </p>
-
       <p><input type="submit" value="Login" /></p>
     </fieldset>
   </form>
@@ -231,3 +208,31 @@ Menambahkan CSS ke Form agar terlihat menarik
   </style>
 ```
 <img src="gambar/Screenshot 2025-10-06 211428.png" width="500"/>
+
+### Pertanyaan Dan Tugas
+
+1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+
+```html
+      <p>
+        <label for="kota">Kota</label>
+        <select id="kota" name="kota">
+          <option value="">-- Pilih Kota --</option>
+          <option value="jakarta">Jakarta</option>
+          <option value="bandung">Bandung</option>
+          <option value="surabaya">Surabaya</option>
+          <option value="medan">Medan</option>
+        </select>
+      </p>
+      <p class="hobi-row">
+        <label for="hobi">Hobi</label>
+        <select id="hobi" name="hobi[]" multiple size="4">
+          <option value="membaca">Membaca</option>
+          <option value="olahraga">Olahraga</option>
+          <option value="musik">Musik</option>
+          <option value="traveling">Traveling</option>
+          <option value="gaming">Gaming</option>
+        </select>
+      </p>
+```
+<img src="gambar/7.png" width="500"/>
