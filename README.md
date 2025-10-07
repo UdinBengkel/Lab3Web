@@ -75,13 +75,13 @@ Tag yang digunakan yaitu:
 Tabel di HTML digunakan untuk menampilkan data dalam bentuk baris dan kolom.
 Tag utama yang dipakai yaitu:
 
-<table> : wadah tabel
+`<table>` : wadah tabel
 
-<tr> : baris tabel (table row)
+`<tr>` : baris tabel (table row)
 
-<th> : sel judul (table header)
+`<th>` : sel judul (table header)
 
-<td> : sel data (table data)
+`<td>` : sel data (table data)
 
 ```html
 <table border="1" cellpadding="4" cellspacing="0">
